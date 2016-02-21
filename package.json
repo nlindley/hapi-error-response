@@ -1,0 +1,36 @@
+{
+  "name": "hapi-error-response",
+  "version": "0.0.1",
+  "description": "Hapi plugin to restore properties from an Error to the response object",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlindley/hapi-error-response.git"
+  },
+  "keywords": [
+    "hapi",
+    "error",
+    "plugin"
+  ],
+  "author": "Nicholas Lindley <me@thisoneplace.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nlindley/hapi-error-response/issues"
+  },
+  "homepage": "https://github.com/nlindley/hapi-error-response#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "peerDependencies": {
+    "hapi": ">=10.x.x"
+  },
+  "devDependencies": {
+    "boom": "^3.1.2",
+    "code": "^2.1.0",
+    "hapi": "^13.0.0",
+    "lab": "^9.0.0"
+  }
+}
