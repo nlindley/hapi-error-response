@@ -21,3 +21,9 @@ server.register(require('hapi-error-response'), (err) => {
     });
 });
 ```
+
+## Testing
+
+```sh
+npm test
+```
